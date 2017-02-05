@@ -13,17 +13,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button btnPickUp = (Button) this.findViewById(R.id.button1);
-        btnPickUp.setOnClickListener(new View.OnClickListener(){
-
+        btnPickUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, PickUpActivity.class);
                 startActivity(intent);
-                // commit test
             }
-
+        });
+        Button btnNoDinner = (Button) this.findViewById(R.id.button2);
+        btnNoDinner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, NoDinnerActivity.class);
+                startActivity(intent);
+            }
         });
 
-
     }
+
 }

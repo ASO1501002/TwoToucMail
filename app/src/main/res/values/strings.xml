@@ -8,9 +8,9 @@
     <string name="station">駅</string>
     <string name="school">学校</string>
 　　 <string name="always">いつもの場所</string>
-    <string name="mail1_to">yoshiyuki.8382129@docomo.ne.jpcom</string>
-    <string name="mail2_to">yoshiyuki.8382129@iCloud.com</string>
-    <string name="mail3_to">yoshiyuki1074129@yahoo.co.jp</string>
+    <string name="mail_to1">yoshiyuki.8382129@docomo.ne.jpcom</string>
+    <string name="mail_to2">yoshiyuki.8382129@iCloud.com</string>
+    <string name="mail_to3">yoshiyuki1074129@yahoo.co.jp</string>
 
 
 </resources>
